@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentDidMount() {
+componentDidMount () {
 	${0}
 }
 ]]></content>

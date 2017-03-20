@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-import React from 'react';
+import React from 'react'
 
 export const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = React.createClass({
-	render() {
+	render () {
 		return ${2:(
 			${3:<div>${0}</div>}
-		);}
+		)}
 	}
-});
+})
 
 ]]></content>
     <tabTrigger>rcc</tabTrigger>
