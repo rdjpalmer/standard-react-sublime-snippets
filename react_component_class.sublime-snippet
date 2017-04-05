@@ -3,11 +3,22 @@
 import React, { Component } from 'react'
 
 export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+
+    }
+  }
 	render () {
 		return ${2:(
 			${3:<div>${0}</div>}
 		)}
 	}
+}
+
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
+  
 }
 
 ]]></content>
