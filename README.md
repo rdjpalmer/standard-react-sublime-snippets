@@ -1,10 +1,10 @@
-# babel-sublime-snippets
+# standard-react-sublime-snippets
 
-Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) in ES5 and [ES6](http://kangax.github.io/compat-table/es6/) flavors.
+Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) in ES6 flavors along with [Standard Style](https://github.com/feross/standard).
 
 ## Installation
 
-Find it as [**Babel Snippets**](https://packagecontrol.io/packages/Babel Snippets) through [Package Control](https://packagecontrol.io/).
+Clone this repo into your `Packages` directory of sublime.
 
 ## Using the "React: wrap in a component" snippet
 
