@@ -3,8 +3,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = props =>
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = props => (
   ${2:<div>${0}</div>}
+)
 
 ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
 
