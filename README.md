@@ -30,16 +30,16 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 | -------: | ------- |
 | `rcc→`   | class component skeleton |
 | `rcc→`   | functional component skeleton |
-| `cdm→`   | `componentDidMount () {…}` |
+| `cdm→`   | `componentDidMount() {…}` |
 | `cdup→`  | `componentDidUpdate (prevProps, prevState) {…}` |
-| `cwm→`   | `componentWillMount () {…}` |
+| `cwm→`   | `componentWillMount() {…}` |
 | `cwr→`   | `componentWillReceiveProps (nextProps) {…}` |
-| `cwun→`  | `componentWillUnmount () {…}` |
+| `cwun→`  | `componentWillUnmount() {…}` |
 | `cwup→`  | `componentWillUpdate (nextProps, nextState) {…}` |
 | `fdn→`   | `React.findDOMNode(…)` |
-| `gdp→`   | `getDefaultProps () {…}` |
-| `gis→`   | `getInitialState () {…}` |
-| `ren→`   | `render () {…}` |
+| `gdp→`   | `getDefaultProps() {…}` |
+| `gis→`   | `getInitialState() {…}` |
+| `ren→`   | `render() {…}` |
 | `sst→`   | `this.setState ((state, props) => ({…})` |
 | `scu→`   | `shouldComponentUpdate (nextProps, nextState) {…}` |
 | `props→` | `this.props` |

@@ -1,17 +1,14 @@
 <snippet>
     <content><![CDATA[
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { PropTypes } from 'react';
 
 const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = props => (
   ${2:<div>${0}</div>}
-)
+);
 
-${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {};
 
-}
-
-export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
 
 ]]></content>
     <tabTrigger>rcc</tabTrigger>

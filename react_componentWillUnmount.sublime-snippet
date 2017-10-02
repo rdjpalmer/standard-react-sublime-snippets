@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentWillUnmount () {
+componentWillUnmount() {
 	${0}
 },
 ]]></content>

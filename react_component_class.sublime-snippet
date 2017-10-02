@@ -1,26 +1,19 @@
 <snippet>
     <content><![CDATA[
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { PropTypes, Component } from 'react';
 
-class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
-  constructor (props) {
-    super(props)
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
+  static propTypes = {};
 
-    this.state = {
+  static defaultProps = {};
 
-    }
-  }
+  state = {};
 
-	render () {
+	render() {
 		return ${2:(
 			${3:<div>${0}</div>}
-		)}
+		);}
 	}
-}
-
-${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
-
 }
 
 ]]></content>
